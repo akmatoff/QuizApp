@@ -1,4 +1,4 @@
-package com.example.quizapplication;
+package com.insarindutries.quizapplication;
 
 import org.junit.Test;
 

@@ -27,6 +27,7 @@
         android:textColor="#333" />
 
     <TextView
+        android:id="@+id/countdown_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -72,12 +73,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Вариант 3" />
-
-        <RadioButton
-            android:id="@+id/radio_button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Вариант 4" />
 
     </RadioGroup>
 

@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Quiz Application</string>
-    <string name="welcome_text">Добро пожаловать в викторину по истории! "\n" Нажмите \"СТАРТ\" для начала викторины!</string>
+    <string name="app_name">History Quiz</string>
+    <string name="welcome_text">Добро пожаловать в викторину по истории! "\n" Вы будете отвечать на вопросы по истории, "\n" на каждый ответ у вас будет по 30 секунд. "\n" Посмотрим ваши знания истории? "\n" Нажмите \"СТАРТ\" для начала викторины!</string>
     <string name="start_button_text">СТАРТ</string>
     <string name="score_text">Количество очков: </string>
     <string name="time_left_text">00:30</string>

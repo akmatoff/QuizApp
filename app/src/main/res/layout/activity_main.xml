@@ -9,27 +9,29 @@
 
     <TextView
         android:id="@+id/welcomeText"
-        android:layout_width="263dp"
-        android:layout_height="110dp"
+        android:layout_width="352dp"
+        android:layout_height="231dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:shadowColor="#111"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="4"
         android:text="@string/welcome_text"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
         android:typeface="normal"
-        android:shadowColor="#111"
-        android:shadowRadius="4"
-        android:shadowDx="5"
-        android:shadowDy="5"
         app:fontFamily="sans-serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536" />
 
     <TextView
         android:id="@+id/highscore_text"

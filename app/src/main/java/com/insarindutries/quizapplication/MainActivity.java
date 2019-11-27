@@ -1,4 +1,4 @@
-package com.example.quizapplication;
+package com.insarindutries.quizapplication;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
