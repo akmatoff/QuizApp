@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/radio_group"
-        android:layout_marginBottom="20sp"
+        android:layout_marginBottom="30sp"
         android:text="Здесь будет вопрос\nЗдесь будет вопрос\nЗдесь будет вопрос\nЗдесь будет вопрос\n"
         android:textAlignment="center"
         android:textColor="#333"
@@ -53,8 +53,8 @@
         android:id="@+id/radio_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp">
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true">
 
         <RadioButton
             android:id="@+id/radio_button1"
@@ -74,6 +74,12 @@
             android:layout_height="wrap_content"
             android:text="Вариант 3" />
 
+        <RadioButton
+            android:id="@+id/radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вариант 4"/>
+
     </RadioGroup>
 
     <Button
@@ -82,8 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/radio_group"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="20dp"
         android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
         android:text="@string/confirm_text" />
 
 
